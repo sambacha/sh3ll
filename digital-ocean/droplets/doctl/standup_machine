@@ -1,0 +1,4 @@
+doctl compute droplet create TODO-NAME --tag-names TODO-TAG-NAME \
+    --image ubuntu-18-04-x64 --region nyc3 --size s-2vcpu-2gb \
+    --ssh-keys TODO-KEY-FINGERPRINT --user-data-file TODO-PATH-TO-FILE \
+    --enable-ipv6 --enable-monitoring --enable-private-networking --enable-backups
